@@ -425,6 +425,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258030370}
   m_CullTransparentMesh: 1
+--- !u!1 &324217248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 324217250}
+  - component: {fileID: 324217249}
+  m_Layer: 0
+  m_Name: Lesson Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &324217249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324217248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0736f91a328f41a7904a0152a6b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &324217250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324217248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1615,7 @@ GameObject:
   - component: {fileID: 1288238747}
   - component: {fileID: 1288238746}
   - component: {fileID: 1288238745}
+  - component: {fileID: 1288238748}
   m_Layer: 5
   m_Name: Lesson - Ly thuyet CMOS
   m_TagString: Untagged
@@ -1643,7 +1688,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1288238746}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288238748}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1288238746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1682,6 +1739,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288238743}
   m_CullTransparentMesh: 1
+--- !u!114 &1288238748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288238743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a9b7afbb8d9a748b021453a846cd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1330307592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,6 +1763,7 @@ GameObject:
   - component: {fileID: 1330307596}
   - component: {fileID: 1330307595}
   - component: {fileID: 1330307594}
+  - component: {fileID: 1330307597}
   m_Layer: 5
   m_Name: Lesson - Tong quan VLSI
   m_TagString: Untagged
@@ -1766,7 +1836,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1330307595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288238748}
+        m_TargetAssemblyTypeName: UINavigateIndependant, Assembly-CSharp
+        m_MethodName: ChooseScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Lesson 1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1330307595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1805,6 +1887,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330307592}
   m_CullTransparentMesh: 1
+--- !u!114 &1330307597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330307592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a9b7afbb8d9a748b021453a846cd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1436614104
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2198,7 @@ GameObject:
   - component: {fileID: 1726443201}
   - component: {fileID: 1726443200}
   - component: {fileID: 1726443199}
+  - component: {fileID: 1726443202}
   m_Layer: 5
   m_Name: Lesson - Thiet ke bo nho
   m_TagString: Untagged
@@ -2176,7 +2271,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1726443200}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1288238748}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1726443200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2215,6 +2322,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726443197}
   m_CullTransparentMesh: 1
+--- !u!114 &1726443202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726443197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a9b7afbb8d9a748b021453a846cd34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1759210257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3002,4 +3121,5 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1182278813}
   - {fileID: 2118053962}
+  - {fileID: 324217250}
   - {fileID: 513811781}
