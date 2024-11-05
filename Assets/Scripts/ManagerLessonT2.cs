@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ManagerLessonT2 : MonoBehaviour
 {
@@ -34,7 +35,16 @@ public class ManagerLessonT2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            BackToT1();
+        }
+    }
+
+    public void BackToT1()
+    {
+        LessonData.instance.T1_Index = 0;
+        SceneManager.LoadScene("Home");
     }
 
 }

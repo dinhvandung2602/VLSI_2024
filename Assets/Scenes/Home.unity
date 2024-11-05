@@ -454,6 +454,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca0736f91a328f41a7904a0152a6b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  T1_Index: 0
+  T2_Index: 0
+  T3_Index: 0
+  T2Prefab: {fileID: 0}
 --- !u!4 &324217250
 Transform:
   m_ObjectHideFlags: 0
@@ -1690,15 +1694,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1288238748}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UINavigateIndependant, Assembly-CSharp
+        m_MethodName: ChooseScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Lesson 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1288238746
@@ -2273,15 +2277,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1288238748}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+        m_TargetAssemblyTypeName: UINavigateIndependant, Assembly-CSharp
+        m_MethodName: ChooseScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Lesson 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1726443200

@@ -5,6 +5,7 @@ using UnityEngine;
 public class LessonT3 : MonoBehaviour
 {
     public string LessonTitle;
+    public GameObject TextInfo;
 
     // Start is called before the first frame update
     void Start()

@@ -2475,7 +2475,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "T\u1ED4NG QUAN V\u1EC0 THI\u1EBET K\u1EBE H\u1EC6 TH\u1ED0NG VLSI"
+  m_text: "L\xDD THUY\u1EBET TRANSISTOR V\xC0 C\xD4NG NGH\u1EC6 CMOS"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 805c666f7c423f244b8ff49a0b09ad70, type: 2}
   m_sharedMaterial: {fileID: -8864618324621817703, guid: 805c666f7c423f244b8ff49a0b09ad70,
@@ -2503,8 +2503,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 64
+  m_fontSizeBase: 64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2940,7 +2940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17e00296319cdd947a8e3c88ae907e69, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b91f429be6474f548a3973e43851d713, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3142,7 +3142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15112ac7843df344e85a03cf47c1f7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  T1_Index: 1
+  T1_Index: 2
 --- !u!114 &962400207188652289
 MonoBehaviour:
   m_ObjectHideFlags: 0
