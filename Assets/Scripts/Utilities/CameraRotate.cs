@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class CameraRotate : MonoBehaviour
+public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
     public float speedH = 4.0f;
@@ -18,51 +19,86 @@ public class CameraRotate : MonoBehaviour
     bool isPress = false;
 
     public GameObject cam;
+    public Transform camPivot;
 
 
+    private bool isPointerOver = false;
+
+    Vector2 starterAngle;
+
+    bool canZoom = false;
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        isPointerOver = true;
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        isPointerOver = false;
+    }
 
     // Use this for initialization
     void Start()
     {
-        transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+        camPivot.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+        starterAngle = new Vector2(pitch, yaw);
+
+        StartCoroutine(delayCanZoom());
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        if (Input.GetMouseButtonDown(0)&&(!EventSystem.current.IsPointerOverGameObject()))
+        Vector2 mousePosition = Input.mousePosition;
+
+        if (isPointerOver && canZoom)
         {
-            isPress = true;
+            //if (Input.GetMouseButtonDown(0) && (!EventSystem.current.IsPointerOverGameObject()))
+            if (Input.GetMouseButtonDown(0))
+            {
+                isPress = true;
+            }
+
+            if ((cam.transform.localPosition.z <= -2.0f) && (Input.GetAxis("Mouse ScrollWheel") > 0))
+            {
+                cam.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * speedZoom);
+            }
+            if ((cam.transform.localPosition.z >= -5.0f) && (Input.GetAxis("Mouse ScrollWheel") < 0))
+            {
+                cam.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * speedZoom);
+            }
         }
+        else
+        {
+            
+
+        }
+
         if (Input.GetMouseButtonUp(0))
         {
             isPress = false;
         }
 
+
         if (isPress)
         {
-            yaw = transform.eulerAngles.y;
+            yaw = camPivot.transform.eulerAngles.y;
             yaw += speedH * Input.GetAxis("Mouse X");
             pitch -= speedV * Input.GetAxis("Mouse Y");
+
 
             //yaw = Mathf.Clamp(yaw, 110f, 260f);
             pitch = Mathf.Clamp(pitch, 0f, 55f);
 
-            transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+            camPivot.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
         }
         else
         {
-            transform.eulerAngles += new Vector3(0.0f, autoRotateSpeed, 0.0f);
+            camPivot.transform.eulerAngles += new Vector3(0.0f, autoRotateSpeed, 0.0f);
         }
 
-        if((cam.transform.localPosition.z<=-0.4f) &&(Input.GetAxis("Mouse ScrollWheel") >0) && (!EventSystem.current.IsPointerOverGameObject()))
-        {
-            cam.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * speedZoom);
-        }
-        if ((cam.transform.localPosition.z >= -2.0f) && (Input.GetAxis("Mouse ScrollWheel") < 0) && (!EventSystem.current.IsPointerOverGameObject()))
-        {
-            cam.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * speedZoom);
-        }
+        
     }
 
     public void mouseDown()
@@ -75,5 +111,14 @@ public class CameraRotate : MonoBehaviour
         isPress = false;
     }
 
+    public void ResetAngle()
+    {
+        camPivot.transform.eulerAngles = new Vector3(starterAngle.x, starterAngle.y, 0.0f);
+    }
 
+    IEnumerator delayCanZoom()
+    {
+        yield return new WaitForSeconds(0.1f);
+        canZoom = true;
+    }
 }

@@ -22,7 +22,6 @@ public class ManagerLessonT3 : MonoBehaviour
     }
 
     
-    
 
     public LessonT2 myLessonT2;
     public TMP_Text Text_MainTitle;
@@ -39,6 +38,9 @@ public class ManagerLessonT3 : MonoBehaviour
     public int currentT3Index = 0;
     public TMP_Text Text_T3Title;
     public Transform TextInfoGroup;
+
+    public GameObject View3D;
+
 
     // Start is called before the first frame update
     void Start()
@@ -92,13 +94,19 @@ public class ManagerLessonT3 : MonoBehaviour
 
         FocusOnItem(LessonT3ButtonList[index].GetComponent<RectTransform>());
 
+
+        LessonT3List[index].gameObject.SetActive(true);
+
         for (int i = 0; i < LessonT3ButtonList.Count; i++)
         {
             if (i != index)
             {
+                LessonT3List[i].gameObject.SetActive(false);
                 LessonT3ButtonList[i].UnChoosen();
             }
         }
+
+        View3D.GetComponent<CameraRotate>().ResetAngle();
         UpdateInfoT3();
         UpdateButtonNextPrev();
     }
@@ -107,12 +115,16 @@ public class ManagerLessonT3 : MonoBehaviour
     {
         Text_T3Title.text = currentLessonT3.LessonTitle;
 
+        
+
         foreach (Transform child in TextInfoGroup)
         {
             GameObject.Destroy(child.gameObject);
         }
         Instantiate(currentLessonT3.TextInfo, TextInfoGroup);
         LayoutRebuilder.ForceRebuildLayoutImmediate(TextInfoGroup.GetComponent<RectTransform>());
+
+
     }
 
     public void ChooseNext()
