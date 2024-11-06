@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 669f80cb5249350498c712c0284550a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25e539bc6e92080408561e2fccc0e533, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2204,7 +2204,7 @@ GameObject:
   - component: {fileID: 1726443199}
   - component: {fileID: 1726443202}
   m_Layer: 5
-  m_Name: Lesson - Thiet ke bo nho
+  m_Name: Lesson - Thiet ke mach to hop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2530,7 +2530,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Thi\u1EBFt k\u1EBF b\u1ED9 nh\u1EDB"
+  m_text: "Thi\u1EBFt k\u1EBF m\u1EA1ch t\u1ED5 h\u1EE3p"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef4f5f8c452082d418b1c691d362a423, type: 2}
   m_sharedMaterial: {fileID: -1298182930386244605, guid: ef4f5f8c452082d418b1c691d362a423,

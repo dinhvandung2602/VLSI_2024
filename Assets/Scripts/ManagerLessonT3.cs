@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Video;
 
 public class ManagerLessonT3 : MonoBehaviour
 {
@@ -40,6 +41,9 @@ public class ManagerLessonT3 : MonoBehaviour
     public Transform TextInfoGroup;
 
     public GameObject View3D;
+    public GameObject ViewImage;
+    public GameObject ViewVideo;
+    public Transform UIController3D;
 
 
     // Start is called before the first frame update
@@ -106,7 +110,7 @@ public class ManagerLessonT3 : MonoBehaviour
             }
         }
 
-        View3D.GetComponent<CameraRotate>().ResetAngle();
+        
         UpdateInfoT3();
         UpdateButtonNextPrev();
     }
@@ -122,9 +126,44 @@ public class ManagerLessonT3 : MonoBehaviour
             GameObject.Destroy(child.gameObject);
         }
         Instantiate(currentLessonT3.TextInfo, TextInfoGroup);
+
+        //Set Content Info
+        switch (currentLessonT3.contentType)
+        {
+            case LessonT3.ContentType.Interactive:
+                View3D.SetActive(true);
+                ViewImage.SetActive(false);
+                ViewVideo.SetActive(false);
+
+                View3D.GetComponent<CameraRotate>().ResetAngle();
+
+                foreach (Transform child in UIController3D)
+                {
+                    GameObject.Destroy(child.gameObject);
+                }
+                GameObject uiController = Instantiate(currentLessonT3.UIController3D, UIController3D);
+                uiController.GetComponent<AnimationController>().references = LessonT3List[currentT3Index].GetComponentInChildren<ModelPrefabRef>();
+                print(uiController);
+                break;
+            case LessonT3.ContentType.Image:
+                View3D.SetActive(false);
+                ViewImage.SetActive(true);
+                ViewVideo.SetActive(false);
+
+                ViewImage.GetComponent<Image>().sprite = currentLessonT3.Picture;
+                break;
+            case LessonT3.ContentType.Video:
+                View3D.SetActive(false);
+                ViewImage.SetActive(false);
+                ViewVideo.SetActive(true);
+
+                ViewVideo.GetComponentInChildren<MyVideoPlayer>().ResetVideoPlayer();
+                ViewVideo.GetComponentInChildren<VideoPlayer>().clip = currentLessonT3.Video;
+                break;
+        }
+        
+
         LayoutRebuilder.ForceRebuildLayoutImmediate(TextInfoGroup.GetComponent<RectTransform>());
-
-
     }
 
     public void ChooseNext()

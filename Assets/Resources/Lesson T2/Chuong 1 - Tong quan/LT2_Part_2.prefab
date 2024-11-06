@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: Phan 2 day
+  contentType: 1
+  TextInfo: {fileID: 0}
+  UIController3D: {fileID: 0}
 --- !u!1 &5133258096077922923
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,3 +140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: T3 phan 1 nw
+  contentType: 1
+  TextInfo: {fileID: 0}
+  UIController3D: {fileID: 0}

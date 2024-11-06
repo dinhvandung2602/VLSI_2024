@@ -52,7 +52,7 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         Vector2 mousePosition = Input.mousePosition;
 
-        if (isPointerOver && canZoom)
+        if (isPointerOver && canZoom && !UIEvent.instance.IsPointerOverUIObject())
         {
             //if (Input.GetMouseButtonDown(0) && (!EventSystem.current.IsPointerOverGameObject()))
             if (Input.GetMouseButtonDown(0))
@@ -120,5 +120,31 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         yield return new WaitForSeconds(0.1f);
         canZoom = true;
+    }
+
+}
+
+public class UIEvent
+{
+    public static UIEvent instance = new UIEvent();
+    public bool IsPointerOverUIObject()
+    {
+        //get GameObjects mouse hover
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        //if mouse hover on game object has tag named "NotBlockUI", return false
+
+        //else return false
+        if (results[0].gameObject.CompareTag("NotBlockUI"))
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+
     }
 }
