@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5724880050707232007}
   - component: {fileID: 5422064327995364857}
   m_Layer: 5
-  m_Name: TextT3 3
+  m_Name: Text P1 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 516.38, y: 469.539}
+  m_SizeDelta: {x: 516.38, y: 1210.2788}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5724880050707232007
 CanvasRenderer:
@@ -65,9 +65,38 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Whion or go to Tools > Extensions & Updates in Visual Studio, search for
-    and install the Visual Studio Tools for Unity.\n \n<size=800%><align=center><sprite
-    name=\"dzung\"></align></size>"
+  m_text: "- C\u1EF1c c\u1ED5ng l\xE0 m\u1ED9t \u0111\u1EA7u v\xE0o \u0111i\u1EC1u
+    khi\u1EC3n: n\xF3 \u1EA3nh h\u01B0\u1EDFng \u0111\u1EBFn d\xF2ng \u0111i\u1EC7n
+    gi\u1EEFa c\u1EF1c ngu\u1ED3n v\xE0 c\u1EF1c m\xE1ng. \n\n- H\xE3y xem x\xE9t
+    m\u1ED9t transistor nMOS. Ph\u1EA7n th\xE2n th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+    n\u1ED1i \u0111\u1EA5t n\xEAn c\xE1c \u0111i\u1EC3m n\u1ED1i p-n c\u1EE7a c\u1EF1c
+    ngu\u1ED3n v\xE0 c\u1EF1c m\xE1ng t\u1EDBi ph\u1EA7n th\xE2n v\xE0 \u0111\u01B0\u1EE3c
+    ph\xE2n c\u1EF1c ng\u01B0\u1EE3c. \n\n- N\u1EBFu c\u1EF1c c\u1ED5ng c\u0169ng
+    \u0111\u01B0\u1EE3c n\u1ED1i \u0111\u1EA5t, kh\xF4ng c\xF3 d\xF2ng \u0111i\u1EC7n
+    ch\u1EA1y qua c\xE1c \u0111i\u1EC3m n\u1ED1i ph\xE2n c\u1EF1c ng\u01B0\u1EE3c.
+    Do \u0111\xF3, transistor \u1EDF tr\u1EA1ng th\xE1i OFF. \n\n- N\u1EBFu nh\u01B0
+    \u0111i\u1EC7n \xE1p c\u1EF1c c\u1ED5ng \u0111\u01B0\u1EE3c n\xE2ng l\xEAn, n\xF3
+    t\u1EA1o ra m\u1ED9t \u0111i\u1EC7n tr\u01B0\u1EDDng b\u1EAFt \u0111\u1EA7u thu
+    h\xFAt c\xE1c electron t\u1EF1 do \u0111\u1EBFn m\u1EB7t d\u01B0\u1EDBi c\u1EE7a
+    m\u1EB7t ph\xE2n c\xE1ch Si \u2013 SiO2, n\u1EBFu \u0111i\u1EC7n \xE1p \u0111\u01B0\u1EE3c
+    t\u0103ng l\xEAn \u0111\u1EE7, c\xE1c \u0111i\u1EC7n t\u1EED nhi\u1EC1u h\u01A1n
+    c\xE1c l\u1ED7 tr\u1ED1ng v\xE0 m\u1ED9t v\xF9ng m\u1ECFng d\u01B0\u1EDBi c\u1EF1c
+    c\u1ED5ng \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 k\xEAnh \u0111\u1EA3o ng\u01B0\u1EE3c
+    \u0111\u1EC3 ho\u1EA1t \u0111\u1ED9ng nh\u01B0 m\u1ED9t ch\u1EA5t b\xE1n d\u1EABn
+    lo\u1EA1i n. \n\n- Do \u0111\xF3, m\u1ED9t k\xEAnh d\u1EABn c\xE1c h\u1EA1t t\u1EA3i
+    \u0111i\u1EC7n t\u1EED \u0111\u01B0\u1EE3c h\xECnh th\xE0nh t\u1EEB c\u1EF1c
+    ngu\u1ED3n \u0111\u1EC3 tho\xE1t v\xE0 d\xF2ng \u0111i\u1EC7n c\xF3 th\u1EC3
+    ch\u1EA1y qua. Transistor \u1EDF tr\u1EA1ng th\xE1i ON\r\n\n- \u0110i\u1EC7n
+    \xE1p d\u01B0\u01A1ng th\u01B0\u1EDDng \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 VDD
+    ho\u1EB7c POWER v\xE0 \u0111\u1EA1i di\u1EC7n cho gi\xE1 tr\u1ECB logic 1 trong
+    c\xE1c m\u1EA1ch \u0111i\u1EC7n k\u1EF9 thu\u1EADt s\u1ED1. Trong c\xE1c h\u1ECD
+    logic ph\u1ED5 bi\u1EBFn c\u1EE7a nh\u1EEFng n\u0103m 1970 v\xE0 1980, VDD \u0111\u01B0\u1EE3c
+    \u0111\u1EB7t \u1EDF 5V. C\xE1c transistor nh\u1ECF h\u01A1n kh\xF4ng th\u1EC3
+    ch\u1ECBu \u0111\u01B0\u1EE3c \u0111i\u1EC7n \xE1p cao nh\u01B0 v\u1EADy v\xE0
+    \u0111\xE3 s\u1EED d\u1EE5ng ngu\u1ED3n cung c\u1EA5p 3.3V, 2.5V, 1.8V, 1.5V,
+    1.2V, 1.0V.\n \n- \u0110i\u1EC7n \xE1p th\u1EA5p \u0111\u01B0\u1EE3c g\u1ECDi
+    l\xE0 \u0111i\u1EC7n \xE1p \u0111\u1EA5t GROUND (GND) ho\u1EB7c VSS v\xE0 \u0111\u1EA1i
+    di\u1EC7n cho m\u1EE9c logic 0. N\xF3 th\u01B0\u1EDDng l\xE0 0V.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
   m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,

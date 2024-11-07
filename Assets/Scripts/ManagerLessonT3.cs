@@ -141,9 +141,19 @@ public class ManagerLessonT3 : MonoBehaviour
                 {
                     GameObject.Destroy(child.gameObject);
                 }
-                GameObject uiController = Instantiate(currentLessonT3.UIController3D, UIController3D);
-                uiController.GetComponent<AnimationController>().references = LessonT3List[currentT3Index].GetComponentInChildren<ModelPrefabRef>();
-                print(uiController);
+
+                //Set UI controller 3D
+                if (currentLessonT3.UIController3D)
+                {
+                    GameObject uiController = Instantiate(currentLessonT3.UIController3D, UIController3D);
+
+                    //Link to model3D references
+                    if (uiController.GetComponent<AnimationController>())
+                    {
+                        uiController.GetComponent<AnimationController>().references = LessonT3List[currentT3Index].GetComponentInChildren<ModelPrefabRef>();
+                    }
+                }
+                
                 break;
             case LessonT3.ContentType.Image:
                 View3D.SetActive(false);

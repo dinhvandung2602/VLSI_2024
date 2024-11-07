@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5724880050707232007}
   - component: {fileID: 5422064327995364857}
   m_Layer: 5
-  m_Name: TextT3 7
+  m_Name: Text P1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 516.38, y: 397.4302}
+  m_SizeDelta: {x: 516.38, y: 748.4537}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5724880050707232007
 CanvasRenderer:
@@ -65,10 +65,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Which version of Visual Studio do you have installed? Did you install
-    the Visual Studio Tools for Unity for that version? If not, either update your
-    installation or go to Tools > Extensions & Updates in Visual Studio, search for
-    and install '
+  m_text: "- M\u1ED9t c\u1EA5u tr\xFAc b\xE1n d\u1EABn \xF4 x\xEDt kim lo\u1EA1i
+    (MOS : Metal-Oxide-Semiconductor) \u0111\u01B0\u1EE3c t\u1EA1o ra b\u1EB1ng c\xE1ch
+    x\u1EBFp ch\u1ED3ng c\xE1c l\u1EDBp v\u1EADt li\u1EC7u l\xEAn nhau \u0111\u1EC3
+    t\u1EA1o th\xE0nh m\u1ED9t c\u1EA5u tr\xFAc x\u1EBFp ch\u1ED3ng. \r\n\n- C\u1EA5u
+    tr\xFAc n\xE0y \u0111\u01B0\u1EE3c s\u1EA3n xu\u1EA5t b\u1EB1ng c\xE1ch s\u1EED
+    d\u1EE5ng m\u1ED9t lo\u1EA1t c\xE1c b\u01B0\u1EDBc x\u1EED l\xFD h\xF3a h\u1ECDc
+    li\xEAn quan \u0111\u1EBFn qu\xE1 tr\xECnh oxy h\xF3a c\u1EE7a silic, vi\u1EC7c
+    ch\u1ECDn l\u1ECDc ch\u1EA5t pha t\u1EA1p, l\u1EAFng \u0111\u1ECDng, kh\u1EAFc
+    c\u1EE7a d\xE2y kim lo\u1EA1i v\xE0 c\xE1c ti\u1EBFp x\xFAc \u0111i\u1EC3m.\n
+    \n- C\xE1c transistor \u0111\u01B0\u1EE3c ch\u1EBF t\u1EA1o tr\xEAn c\xE1c \u0111\u01A1n
+    tinh th\u1EC3 g\u1EA7n nh\u01B0 ho\xE0n h\u1EA3o c\u1EE7a silic, d\u01B0\u1EDBi
+    d\u1EA1ng t\u1EA5m m\u1ECFng h\xECnh tr\xF2n ph\u1EB3ng c\xF3 \u0111\u01B0\u1EDDng
+    k\xEDnh 15-30 cm. \r\n\n- C\xF4ng ngh\u1EC7 CMOS cung c\u1EA5p hai lo\u1EA1i
+    transistor: transistor lo\u1EA1i n (nMOS) v\xE0 transistor lo\u1EA1i p (pMOS).
+    \r\n\n- Ho\u1EA1t \u0111\u1ED9ng c\u1EE7a transistor \u0111\u01B0\u1EE3c \u0111i\u1EC1u
+    khi\u1EC3n b\u1EDFi \u0111i\u1EC7n tr\u01B0\u1EDDng c\xF2n \u0111\u01B0\u1EE3c
+    g\u1ECDi l\xE0 transistor hi\u1EC7u \u1EE9ng tr\u01B0\u1EDDng (MOSFETs) ho\u1EB7c
+    \u0111\u01A1n gi\u1EA3n l\xE0 FETs.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
   m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,
