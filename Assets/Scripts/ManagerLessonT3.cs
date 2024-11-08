@@ -119,13 +119,13 @@ public class ManagerLessonT3 : MonoBehaviour
     {
         Text_T3Title.text = currentLessonT3.LessonTitle;
 
-        
 
         foreach (Transform child in TextInfoGroup)
         {
             GameObject.Destroy(child.gameObject);
         }
-        Instantiate(currentLessonT3.TextInfo, TextInfoGroup);
+        if(currentLessonT3.TextInfo) Instantiate(currentLessonT3.TextInfo, TextInfoGroup);
+
 
         //Set Content Info
         switch (currentLessonT3.contentType)

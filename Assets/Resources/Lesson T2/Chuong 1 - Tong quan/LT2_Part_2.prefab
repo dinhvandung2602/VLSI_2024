@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1194423997586848758
+--- !u!1 &1859144074197572734
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2719298145922686964}
-  - component: {fileID: 1266531746986005542}
+  - component: {fileID: 1841219152841811692}
+  - component: {fileID: 574650833677311758}
   m_Layer: 0
-  m_Name: LT3_Part_2
+  m_Name: LT3_Part_2 - NAND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2719298145922686964
+--- !u!4 &1841219152841811692
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194423997586848758}
+  m_GameObject: {fileID: 1859144074197572734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,22 +32,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2170866678284812898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1266531746986005542
+--- !u!114 &574650833677311758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194423997586848758}
+  m_GameObject: {fileID: 1859144074197572734}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: Phan 2 day
-  contentType: 1
-  TextInfo: {fileID: 0}
-  UIController3D: {fileID: 0}
+  LessonTitle: "C\u1ED5ng NAND "
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: e6cd42e8509bc654a872d998de98fb62,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 112abaf3f353f8c42b7935a10b560a16,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
 --- !u!1 &5133258096077922923
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +83,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2357802481375634074}
-  - {fileID: 2719298145922686964}
+  - {fileID: 1414276325016049215}
+  - {fileID: 1841219152841811692}
+  - {fileID: 5914411089993829914}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6702049469010566026
@@ -94,7 +100,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87322d9d2837e994bb7d3e4266849d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: Bai hoc thu 2
+  LessonTitle: "Thi\u1EBFt k\u1EBF c\u1ED5ng CMOS"
+--- !u!1 &6641635972629970452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5914411089993829914}
+  - component: {fileID: 7510343855786687231}
+  m_Layer: 0
+  m_Name: LT3_Part_2 - NOR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5914411089993829914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6641635972629970452}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7510343855786687231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6641635972629970452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: "C\u1ED5ng NOR"
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: b6aa93ef2a8335647af6f891b82567b2,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 9cd2032a24229954ea096b3a0d4364aa,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
 --- !u!1 &6956901048594016103
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,7 +197,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: T3 phan 1 nw
+  LessonTitle: "Nguy\xEAn l\xFD t\u1ED5ng qu\xE1t "
   contentType: 1
-  TextInfo: {fileID: 0}
+  TextInfo: {fileID: 6491805034061868788, guid: d248c9fc0a5b39941b482b1fd60894cf,
+    type: 3}
   UIController3D: {fileID: 0}
+  Picture: {fileID: 21300000, guid: 49ff32fbb35bacf47aaf134266bb1f53, type: 3}
+  Video: {fileID: 0}
+--- !u!1 &8457818018748592256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414276325016049215}
+  - component: {fileID: 8818626499675135400}
+  m_Layer: 0
+  m_Name: LT3_Part_2 - Inverter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414276325016049215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8457818018748592256}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8818626499675135400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8457818018748592256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: "C\u1ED5ng \u0111\u1EA3o (Inverter/NOT) "
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: eaaa1675c5afbf445a89203b6c3036f8,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 1dd9e792288e96e4594b0aefd9d2ae8f,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}

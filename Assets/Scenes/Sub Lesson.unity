@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 499956510}
   m_Layer: 0
   m_Name: Camera View 3D
-  m_TagString: Untagged
+  m_TagString: CamView3D
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3653,7 +3653,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266886929}
   m_HandleRect: {fileID: 1266886928}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

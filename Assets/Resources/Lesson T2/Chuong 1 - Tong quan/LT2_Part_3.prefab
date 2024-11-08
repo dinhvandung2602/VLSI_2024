@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5718877324526049955}
   - component: {fileID: 1406121132451141193}
   m_Layer: 0
-  m_Name: LT3_Part_1
+  m_Name: LT3_Part_1 - AND
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,10 +44,118 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: T3 phan 1 nw
-  contentType: 1
-  TextInfo: {fileID: 0}
-  UIController3D: {fileID: 0}
+  LessonTitle: AND
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: d3e639442d38eef46b7de40f598160dc,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 664772b32ed356249bfd32a7a0ebb515,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
+--- !u!1 &3292034695142492158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3319870708444125657}
+  - component: {fileID: 3834509581210738250}
+  m_Layer: 0
+  m_Name: LT3_Part_4 - NAND
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3319870708444125657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292034695142492158}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3834509581210738250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3292034695142492158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: NAND
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: 06c9ee845568b78468e2278c7b670255,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 7327136b32ec4c741832abe67f5a5bf0,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
+--- !u!1 &4282563146155020594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7523023137870459792}
+  - component: {fileID: 2860845175443660802}
+  m_Layer: 0
+  m_Name: LT3_Part_2 - NOR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7523023137870459792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282563146155020594}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2860845175443660802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4282563146155020594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: NOR
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: 82559db1173a9c347b31cd046c64b67c,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 1965a1b1ebf98c641a1d2dae9799be2a,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
 --- !u!1 &5133258096077922923
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +187,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5718877324526049955}
+  - {fileID: 7523023137870459792}
+  - {fileID: 2214565263207411214}
+  - {fileID: 3319870708444125657}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6702049469010566026
@@ -93,4 +204,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87322d9d2837e994bb7d3e4266849d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: Day la bai thu 3
+  LessonTitle: "M\u1EA1ch n\u1ED1i ti\u1EBFp v\xE0 song song"
+--- !u!1 &6378383380194314084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2214565263207411214}
+  - component: {fileID: 6418254854335120233}
+  m_Layer: 0
+  m_Name: LT3_Part_3 - OR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2214565263207411214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378383380194314084}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6418254854335120233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378383380194314084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: OR
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: 4bf5c672e0007af42b60e4c87cee4d73,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 70041e3e79f00694c90bbe5dd58330e9,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}

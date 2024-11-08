@@ -25,6 +25,7 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     private bool isPointerOver = false;
 
     Vector2 starterAngle;
+    float starterZoom;
 
     bool canZoom = false;
 
@@ -43,6 +44,7 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         camPivot.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
         starterAngle = new Vector2(pitch, yaw);
+        starterZoom = cam.transform.localPosition.z;
 
         StartCoroutine(delayCanZoom());
     }
@@ -114,6 +116,7 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public void ResetAngle()
     {
         camPivot.transform.eulerAngles = new Vector3(starterAngle.x, starterAngle.y, 0.0f);
+        cam.transform.localPosition = new Vector3(0, 0, starterZoom);
     }
 
     IEnumerator delayCanZoom()
