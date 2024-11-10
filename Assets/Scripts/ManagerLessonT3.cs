@@ -110,10 +110,13 @@ public class ManagerLessonT3 : MonoBehaviour
             }
         }
 
-        
+        //reset scroll Text info
+        TextInfoGroup.GetComponentInParent<ScrollRect>().verticalNormalizedPosition = 1;
+
         UpdateInfoT3();
         UpdateButtonNextPrev();
     }
+
 
     public void UpdateInfoT3()
     {
