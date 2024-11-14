@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AnimationControllerMOSFET : AnimationController
 {
     public Slider slider1;
-    public Text textSlide1;
+    public TMP_Text text_Slide1;
+
     public Slider slider2;
-    public Text textSlide2;
+    public TMP_Text text_Slide2;
+
     //particle speed
     float maxCapSpeed = 2;
     float max_uP = 3;
@@ -61,7 +64,7 @@ public class AnimationControllerMOSFET : AnimationController
 
     public void OnSlider1Change()
     {
-        textSlide1.text = (Mathf.Round(slider1.value * 100f) / 10f).ToString();
+        text_Slide1.text = (Mathf.Round(slider1.value * 100f) / 10f).ToString()+"V";
         //cal speed
         CalParticleSpeed();
 
@@ -89,7 +92,7 @@ public class AnimationControllerMOSFET : AnimationController
 
     public void OnSlider2Change()
     {
-        textSlide2.text = (1 + Mathf.Round(slider2.value * -4f * 10f) / 10f).ToString();
+        text_Slide2.text = (1 + Mathf.Round(slider2.value * -4f * 10f) / 10f).ToString()+"V";
 
         //cal speed
         maxSpeed = maxCapSpeed * (1 - slider2.value);
@@ -164,7 +167,8 @@ public class AnimationControllerMOSFET : AnimationController
     {
         float UGSscaleY = 1 - slider2.value * (1f - 0.04f);
         float UGSscaleX = 1 - slider2.value * (1f - 0.1f);
-        lineUGS.localScale = new Vector3(UGSscaleX, UGSscaleY, lineUGS.localScale.z);
+        //lineUGS.localScale = new Vector3(UGSscaleX, UGSscaleY, lineUGS.localScale.z);
+        lineUGS.GetComponent<RectTransform>().anchoredPosition = new Vector3(-(1 - UGSscaleX) * 40, -(1 - UGSscaleY) * 75 + 2f, 0);
 
         float UGSpos = 85f - slider2.value * (85f - 13f);
         textUGS.anchoredPosition = new Vector3(textUGS.anchoredPosition.x, UGSpos);

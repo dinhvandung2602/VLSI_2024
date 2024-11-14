@@ -974,7 +974,7 @@ PrefabInstance:
     - target: {fileID: 946074753915080610, guid: ea626f0b2b4cd2e42a9bf2c46379c91f,
         type: 3}
       propertyPath: m_Name
-      value: Button T2 - TEST
+      value: Button T2 - Transitor MOS
       objectReference: {fileID: 0}
     - target: {fileID: 3891946069026781117, guid: ea626f0b2b4cd2e42a9bf2c46379c91f,
         type: 3}
