@@ -813,7 +813,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -822,7 +822,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.7
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 815972740}
   m_HandleRect: {fileID: 815972739}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2020,7 +2020,7 @@ MonoBehaviour:
   speedV: 4
   speedZoom: 4
   yaw: -26
-  pitch: 24
+  pitch: 7
   autoRotateSpeed: 0.01
   cam: {fileID: 499956508}
   camPivot: {fileID: 1972313917}
@@ -3653,7 +3653,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1266886929}
   m_HandleRect: {fileID: 1266886928}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
