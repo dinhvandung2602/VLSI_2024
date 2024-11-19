@@ -88,6 +88,12 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: gioithieuCMOS
     m_HashCode: 1837119775
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 8
+    m_Scale: 1
+    m_Name: stickrule
+    m_HashCode: -230491192
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -217,6 +223,22 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: -1701019696, guid: d458b71a0f07f2c43a562ad00331d262, type: 3}
+  - m_Index: 8
+    m_Metrics:
+      m_Width: 266
+      m_Height: 390
+      m_HorizontalBearingX: -0
+      m_HorizontalBearingY: 390
+      m_HorizontalAdvance: 266
+    m_GlyphRect:
+      m_X: 814
+      m_Y: 1543
+      m_Width: 266
+      m_Height: 390
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -5090878, guid: d458b71a0f07f2c43a562ad00331d262, type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
 --- !u!21 &936184991778978821

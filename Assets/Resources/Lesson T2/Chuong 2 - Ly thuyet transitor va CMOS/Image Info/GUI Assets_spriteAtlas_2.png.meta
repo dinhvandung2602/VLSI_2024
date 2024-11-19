@@ -316,6 +316,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_8
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1543
+        width: 266
+        height: 390
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab22d4244ad3b144c899c03c8e3c63ab
+      internalID: -5090878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -335,6 +356,7 @@ TextureImporter:
       GUI Assets_spriteAtlas_2_5: 409529153
       GUI Assets_spriteAtlas_2_6: 1915039685
       GUI Assets_spriteAtlas_2_7: -1701019696
+      GUI Assets_spriteAtlas_2_8: -5090878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
