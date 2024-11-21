@@ -66,8 +66,14 @@ public class ManagerLessonT3 : MonoBehaviour
             bT3.GetComponent<LessonT3_Button>().SetName(child.GetComponent<LessonT3>().LessonTitle);
         }
 
-        SelectLessonT3(0);
+        StartCoroutine(delaySelectFirstButton());
         ButtonT3Group.GetComponentInParent<ScrollRect>().horizontalNormalizedPosition = 0;
+    }
+
+    IEnumerator delaySelectFirstButton()
+    {
+        yield return new WaitForSeconds(0.1f);
+        SelectLessonT3(0);
     }
 
     // Update is called once per frame
@@ -138,6 +144,8 @@ public class ManagerLessonT3 : MonoBehaviour
                 ViewImage.SetActive(false);
                 ViewVideo.SetActive(false);
 
+                View3D.GetComponentInChildren<RawImage>().enabled = true;
+
                 View3D.GetComponent<CameraRotate>().ResetAngle();
 
                 foreach (Transform child in UIController3D)
@@ -163,12 +171,16 @@ public class ManagerLessonT3 : MonoBehaviour
                 ViewImage.SetActive(true);
                 ViewVideo.SetActive(false);
 
+                View3D.GetComponentInChildren<RawImage>().enabled = false;
+
                 ViewImage.GetComponent<Image>().sprite = currentLessonT3.Picture;
                 break;
             case LessonT3.ContentType.Video:
                 View3D.SetActive(false);
                 ViewImage.SetActive(false);
                 ViewVideo.SetActive(true);
+
+                View3D.GetComponentInChildren<RawImage>().enabled = false;
 
                 ViewVideo.GetComponentInChildren<MyVideoPlayer>().ResetVideoPlayer();
                 ViewVideo.GetComponentInChildren<VideoPlayer>().clip = currentLessonT3.Video;

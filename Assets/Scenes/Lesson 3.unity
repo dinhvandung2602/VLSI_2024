@@ -906,7 +906,7 @@ PrefabInstance:
         type: 3}
       propertyPath: DataLessonT2
       value: 
-      objectReference: {fileID: 5133258096077922923, guid: ac05ce278319912499142567b56ccdf4,
+      objectReference: {fileID: 5133258096077922923, guid: 137aa88913304cf4daaf242241812ad9,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

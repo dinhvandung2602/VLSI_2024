@@ -1986,7 +1986,7 @@ PrefabInstance:
         type: 3}
       propertyPath: DataLessonT2
       value: 
-      objectReference: {fileID: 5133258096077922923, guid: 6468ae7517fd6d74d925cee07e2871d0,
+      objectReference: {fileID: 5133258096077922923, guid: 1646a3b9058ae24479a3042e27b784a3,
         type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2076,8 +2076,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1827130860}
   m_HandleRect: {fileID: 1827130859}
   m_Direction: 2
-  m_Value: 0.9999978
-  m_Size: 0.9292008
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
