@@ -337,6 +337,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_9
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1556
+        width: 831
+        height: 462
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35382424faf5dc84ba4cec46bf1f9964
+      internalID: 68385036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_10
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1126
+        width: 710
+        height: 403
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea975263864f2c4290ec6d92a617060
+      internalID: -529046139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -350,6 +392,7 @@ TextureImporter:
     nameFileIdTable:
       GUI Assets_spriteAtlas_2_0: -1856482808
       GUI Assets_spriteAtlas_2_1: -1668327725
+      GUI Assets_spriteAtlas_2_10: -529046139
       GUI Assets_spriteAtlas_2_2: 2134332168
       GUI Assets_spriteAtlas_2_3: 1208863466
       GUI Assets_spriteAtlas_2_4: 739647128
@@ -357,6 +400,7 @@ TextureImporter:
       GUI Assets_spriteAtlas_2_6: 1915039685
       GUI Assets_spriteAtlas_2_7: -1701019696
       GUI Assets_spriteAtlas_2_8: -5090878
+      GUI Assets_spriteAtlas_2_9: 68385036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

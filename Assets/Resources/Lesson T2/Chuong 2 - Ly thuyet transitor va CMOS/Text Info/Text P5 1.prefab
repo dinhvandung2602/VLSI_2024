@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6491805034061868788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3003277915601320635}
+  - component: {fileID: 5724880050707232007}
+  - component: {fileID: 5422064327995364857}
+  m_Layer: 5
+  m_Name: Text P5 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3003277915601320635
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 516.38, y: 695.9635}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &5724880050707232007
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_CullTransparentMesh: 1
+--- !u!114 &5422064327995364857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "- Quy t\u1EAFc thi\u1EBFt k\u1EBF x\xE1c \u0111\u1ECBnh c\xE1c t\xEDnh
+    n\u0103ng nh\u1ECF nh\u1EA5t c\xF3 th\u1EC3 v\xE0 c\xE1ch \u0111\xF3ng g\xF3i
+    ch\xFAng trong quy tr\xECnh s\u1EA3n xu\u1EA5t, th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+    quy \u0111\u1ECBnh b\u1EB1ng micromet.\r\n\n- Kh\xF4ng ph\u1EA3i t\u1EA5t c\u1EA3
+    c\xE1c quy t\u1EAFc \u0111\u1EC1u m\u1EDF r\u1ED9ng theo c\xF9ng c\xE1ch, khi\u1EBFn
+    vi\u1EC7c chuy\u1EC3n \u0111\u1ED5i gi\u1EEFa c\xE1c quy tr\xECnh s\u1EA3n xu\u1EA5t
+    tr\u1EDF n\xEAn ph\u1EE9c t\u1EA1p.\r\n\n- Mead v\xE0 Conway \u0111\xE3 \u0111\u01A1n
+    gi\u1EA3n h\xF3a thi\u1EBFt k\u1EBF b\u1EB1ng c\xE1ch d\xF9ng quy t\u1EAFc d\u1EF1a
+    tr\xEAn tham s\u1ED1 \u03BB, \u0111\u1EB7c tr\u01B0ng cho \u0111\u1ED9 ph\xE2n
+    gi\u1EA3i c\u1EE7a quy tr\xECnh. \u03BB th\u01B0\u1EDDng l\xE0 n\u1EEDa chi\u1EC1u
+    d\xE0i k\xEAnh transistor t\u1ED1i thi\u1EC3u. V\xED d\u1EE5 v\u1EDBi quy tr\xECnh
+    180 nm, chi\u1EC1u r\u1ED9ng polysilicon t\u1ED1i thi\u1EC3u l\xE0 0.18 \xB5m,
+    quy t\u1EAFc thi\u1EBFt k\u1EBF d\xF9ng \u03BB = 0.09 \xB5m.\r\n\n- \u01AFu \u0111i\u1EC3m
+    c\u1EE7a \u03BB l\xE0 c\xF9ng m\u1ED9t b\u1ED1 c\u1EE5c c\xF3 th\u1EC3 \u0111\u01B0\u1EE3c
+    \xE1p d\u1EE5ng cho quy tr\xECnh m\u1EDBi ch\u1EC9 c\u1EA7n thay \u0111\u1ED5i
+    gi\xE1 tr\u1ECB \u03BB. \u03BB b\u1EB1ng m\u1ED9t n\u1EEDa k\xEDch th\u01B0\u1EDBc
+    t\xEDnh n\u0103ng c\u1EE7a transistor.\r"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
+  m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282006074
+  m_fontColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: 81cd684ff4cc54749babc544dfa5e4c8, type: 2}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}

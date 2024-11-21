@@ -70,6 +70,7 @@ public class CameraRotate : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             {
                 cam.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * speedZoom);
             }
+            
         }
         else
         {

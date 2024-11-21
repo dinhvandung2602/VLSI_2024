@@ -37,7 +37,6 @@ public class AnimControllerStickPractice : AnimationController
         {
             timelineSlider.value = (float)playableDirector.time;
         }
-        print(isDragging);
     }
 
     public void OnSliderValueChanged(float value)

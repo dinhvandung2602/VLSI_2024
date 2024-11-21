@@ -94,6 +94,18 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: stickrule
     m_HashCode: -230491192
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 9
+    m_Scale: 1
+    m_Name: table_designrule_size
+    m_HashCode: -1878328953
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 10
+    m_Scale: 1
+    m_Name: layout_cmos
+    m_HashCode: -833464937
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -239,6 +251,38 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
     sprite: {fileID: -5090878, guid: d458b71a0f07f2c43a562ad00331d262, type: 3}
+  - m_Index: 9
+    m_Metrics:
+      m_Width: 831
+      m_Height: 462
+      m_HorizontalBearingX: -0
+      m_HorizontalBearingY: 462
+      m_HorizontalAdvance: 831
+    m_GlyphRect:
+      m_X: 1202
+      m_Y: 1556
+      m_Width: 831
+      m_Height: 462
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 68385036, guid: d458b71a0f07f2c43a562ad00331d262, type: 3}
+  - m_Index: 10
+    m_Metrics:
+      m_Width: 710
+      m_Height: 403
+      m_HorizontalBearingX: -0
+      m_HorizontalBearingY: 403
+      m_HorizontalAdvance: 710
+    m_GlyphRect:
+      m_X: 1323
+      m_Y: 1126
+      m_Width: 710
+      m_Height: 403
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -529046139, guid: d458b71a0f07f2c43a562ad00331d262, type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
 --- !u!21 &936184991778978821
