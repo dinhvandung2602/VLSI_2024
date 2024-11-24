@@ -70,8 +70,8 @@ MonoBehaviour:
     v\u1EDBi kh\xED arsen (As).\vT\u0103ng nhi\u1EC7t \u0111\u1ED9 cho \u0111\u1EBFn
     khi c\xE1c nguy\xEAn t\u1EED As khu\u1EBFch t\xE1n v\xE0o v\xF9ng Si l\u1ED9
     ra.\r\n\r\n- C\u1EA5y ion (Ion Implantation):\vChi\u1EBFu ch\xF9m tia ion As
-    l\xEAn wafer.\vC\xE1c ion b\u1ECB ch\u1EB7n b\u1EDFi l\u1EDBp SiO\u2082, ch\u1EC9
-    th\xE2m nh\u1EADp v\xE0o v\xF9ng Si l\u1ED9 ra.\r"
+    l\xEAn wafer.\vC\xE1c ion b\u1ECB ch\u1EB7n b\u1EDFi l\u1EDBp SiO<sub>2</sub>,
+    ch\u1EC9 th\xE2m nh\u1EADp v\xE0o v\xF9ng Si l\u1ED9 ra.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
   m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,

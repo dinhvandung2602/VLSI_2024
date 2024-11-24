@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5724880050707232007}
   - component: {fileID: 5422064327995364857}
   m_Layer: 5
-  m_Name: Text P1 2 - 8
+  m_Name: Text P2 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 516.38, y: 348.7086}
+  m_SizeDelta: {x: 516.38, y: 397.5432}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5724880050707232007
 CanvasRenderer:
@@ -65,14 +65,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L\u1EAFng \u0111\u1ECDng l\u1EDBp oxide c\u1ED5ng r\u1EA5t m\u1ECFng (<
-    20 \xC5, kho\u1EA3ng 6-7 l\u1EDBp nguy\xEAn t\u1EED).\r\n\r\nL\u1EAFng \u0111\u1ECDng
-    h\u01A1i h\xF3a h\u1ECDc (Chemical Vapor Deposition - CVD) \u0111\u1EC3 t\u1EA1o
-    l\u1EDBp silicon:\r\n- \u0110\u1EB7t wafer v\xE0o l\xF2 nung v\u1EDBi kh\xED
-    Silane (SiH<sub>4</sub>).\r\n- T\u1EA1o ra nhi\u1EC1u tinh th\u1EC3 nh\u1ECF,
-    \u0111\u01B0\u1EE3c g\u1ECDi l\xE0 polysilicon.\r\n- Polysilicon sau \u0111\xF3
-    \u0111\u01B0\u1EE3c doping m\u1EA1nh \u0111\u1EC3 tr\u1EDF th\xE0nh ch\u1EA5t
-    d\u1EABn \u0111i\u1EC7n t\u1ED1t.\r"
+  m_text: "Parasitic delay l\xE0 ph\u1EA7n tr\u1EC5 trong m\u1ED9t c\u1ED5ng logic
+    m\xE0 kh\xF4ng ph\u1EE5 thu\u1ED9c v\xE0o t\u1EA3i \u0111\u1EA7u ra. N\xF3 \u0111\u01B0\u1EE3c
+    g\xE2y ra b\u1EDFi\_t\u1EE5 \u0111i\u1EC7n k\xFD sinh n\u1ED9i t\u1EA1i\_c\u1EE7a
+    c\xE1c transistor v\xE0 d\xE2y d\u1EABn trong c\u1ED5ng. Parasitic delay \u0111\u1EA1i
+    di\u1EC7n cho kho\u1EA3ng th\u1EDDi gian c\u1EA7n thi\u1EBFt \u0111\u1EC3 c\u1ED5ng
+    logic chuy\u1EC3n \u0111\u1ED5i tr\u1EA1ng th\xE1i khi kh\xF4ng ph\u1EA3i \u0111i\u1EC1u
+    khi\u1EC3n b\u1EA5t k\u1EF3 t\u1EA3i n\xE0o \u1EDF \u0111\u1EA7u ra.\r\n\nTheo
+    b\u1ED9i s\u1ED1 c\u1EE7a p<sub>inv</sub> (~1). Tr\u1EC5 k\xFD sinh c\u1EE7a
+    c\u1ED5ng inverter \u0111\u01B0\u1EE3c coi l\xE0 gi\xE1 tr\u1ECB c\u01A1 b\u1EA3n
+    (p<sub>inv</sub>=1) v\xE0 l\xE0 chu\u1EA9n \u0111\u1EC3 so s\xE1nh v\u1EDBi c\xE1c
+    c\u1ED5ng kh\xE1c.\r\n\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
   m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,

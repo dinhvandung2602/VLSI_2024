@@ -66,9 +66,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "- B\u1EAFt \u0111\u1EA7u v\u1EDBi wafer tr\u1ED1ng\v- X\xE2y d\u1EF1ng
-    m\u1EA1ch inverter t\u1EEB d\u01B0\u1EDBi l\xEAn\v- T\u1EA1o l\u1EDBp SiO\u2082
+    m\u1EA1ch inverter t\u1EEB d\u01B0\u1EDBi l\xEAn\v- T\u1EA1o l\u1EDBp SiO<sub>2</sub>
     tr\xEAn b\u1EC1 m\u1EB7t wafer silicon. Nhi\u1EC7t \u0111\u1ED9 t\u1EEB 900 \u2013
-    1200\xB0C v\u1EDBi H\u2082O ho\u1EB7c O\u2082 trong l\xF2 oxy h\xF3a\r\n\r\n\r\n"
+    1200\xB0C v\u1EDBi H<sub>2</sub>O ho\u1EB7c O<sub>2</sub> trong l\xF2 oxy h\xF3a\r\n\r\n\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
   m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,

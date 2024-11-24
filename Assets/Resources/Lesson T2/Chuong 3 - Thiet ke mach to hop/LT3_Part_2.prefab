@@ -1,5 +1,109 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &759853135059784017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 48547569150895400}
+  - component: {fileID: 1404242695762930285}
+  m_Layer: 0
+  m_Name: LT3_Part_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &48547569150895400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759853135059784017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404242695762930285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759853135059784017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: "Tr\u1EC5 k\xFD sinh c\u1EE7a m\u1ED9t s\u1ED1 c\u1ED5ng th\xF4ng
+    d\u1EE5ng "
+  contentType: 1
+  TextInfo: {fileID: 6491805034061868788, guid: 233a825390666894cb2bfeae49cfd639,
+    type: 3}
+  UIController3D: {fileID: 0}
+  Picture: {fileID: 21300000, guid: 6bb379f79c8718a4b8e468a8a57b1a67, type: 3}
+  Video: {fileID: 0}
+--- !u!1 &2702928382961299597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5339312632693153480}
+  - component: {fileID: 4649114690013108072}
+  m_Layer: 0
+  m_Name: LT3_Part_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5339312632693153480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702928382961299597}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2170866678284812898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4649114690013108072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702928382961299597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LessonTitle: "T\xEDnh to\xE1n Logical Effort "
+  contentType: 0
+  TextInfo: {fileID: 6491805034061868788, guid: 4761086bb2bc3a146a41ea2b6bcb7d9f,
+    type: 3}
+  UIController3D: {fileID: 8143202457529083539, guid: 2f71636a4c4c1b94db276674da63fa28,
+    type: 3}
+  Picture: {fileID: 0}
+  Video: {fileID: 0}
 --- !u!1 &4103377148667873900
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,10 +150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LessonTitle: "Gi\u1EDBi thi\u1EC7u chung "
   contentType: 1
-  TextInfo: {fileID: 6491805034061868788, guid: 6bb5cdb778929c5479b558524efa144e,
+  TextInfo: {fileID: 6491805034061868788, guid: 233a825390666894cb2bfeae49cfd639,
     type: 3}
   UIController3D: {fileID: 0}
-  Picture: {fileID: 21300000, guid: ec3e9eeb0782a124f865059954744e7d, type: 3}
+  Picture: {fileID: 21300000, guid: 715d32c164eae6d40bf53f59b3adeee2, type: 3}
   Video: {fileID: 0}
 --- !u!1 &5133258096077922923
 GameObject:
@@ -62,7 +166,7 @@ GameObject:
   - component: {fileID: 2170866678284812898}
   - component: {fileID: 6702049469010566026}
   m_Layer: 0
-  m_Name: LT3_Part_1
+  m_Name: LT3_Part_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,6 +187,8 @@ Transform:
   m_Children:
   - {fileID: 47979908464393444}
   - {fileID: 1651439826208234208}
+  - {fileID: 5339312632693153480}
+  - {fileID: 48547569150895400}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6702049469010566026
@@ -97,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87322d9d2837e994bb7d3e4266849d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: "\u0110\u1EA9y b\u1ECDt (Bubble Pushing)"
+  LessonTitle: "N\u1ED7 l\u1EF1c logic (Logical Effort)"
 --- !u!1 &8412839556769567954
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,11 +248,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: "V\xED d\u1EE5 "
+  LessonTitle: 'Delay Plot '
   contentType: 0
-  TextInfo: {fileID: 6491805034061868788, guid: fc222c8143d7bd646931ea6fd7aac8f4,
+  TextInfo: {fileID: 6491805034061868788, guid: 30a43c6e01e49914490a5acc0ebb5651,
     type: 3}
-  UIController3D: {fileID: 8143202457529083539, guid: d9f73784149b8fb4aadf44a22995ed97,
+  UIController3D: {fileID: 8143202457529083539, guid: affdf5e2ad47b2f45bda8c67f02e9ce3,
     type: 3}
   Picture: {fileID: 0}
   Video: {fileID: 0}
