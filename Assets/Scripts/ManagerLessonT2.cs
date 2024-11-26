@@ -7,7 +7,7 @@ public class ManagerLessonT2 : MonoBehaviour
 {
     public static ManagerLessonT2 instance;
 
-    
+    public GameObject buttonBackToT1;
 
     private void Awake()
     {
@@ -35,7 +35,7 @@ public class ManagerLessonT2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Backspace))
+        if (Input.GetKeyDown(KeyCode.Backspace) && buttonBackToT1.activeSelf)
         {
             BackToT1();
         }

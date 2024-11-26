@@ -48,7 +48,7 @@ MonoBehaviour:
   contentType: 0
   TextInfo: {fileID: 6491805034061868788, guid: b7aded44946ab094e9d5d9e6ea7989df,
     type: 3}
-  UIController3D: {fileID: 8143202457529083539, guid: f96796bf73c4da64aa895377da6b0e7a,
+  UIController3D: {fileID: 8143202457529083539, guid: 8b3fbbb684a216040967a7ce0995fea3,
     type: 3}
   Picture: {fileID: 0}
   Video: {fileID: 0}
@@ -147,7 +147,7 @@ MonoBehaviour:
   contentType: 0
   TextInfo: {fileID: 6491805034061868788, guid: e8957d0842645474eaccac143c778ade,
     type: 3}
-  UIController3D: {fileID: 8143202457529083539, guid: f96796bf73c4da64aa895377da6b0e7a,
+  UIController3D: {fileID: 8143202457529083539, guid: 7b730ef309530a04990acd204ec08890,
     type: 3}
   Picture: {fileID: 0}
   Video: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6438417, g: 0.69431347, b: 0.7002087, a: 1}
+  m_IndirectSpecularColor: {r: 0.64245075, g: 0.6901801, b: 0.6953105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4177,6 +4177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Button - Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382911499851805233, guid: 36d6ae8185cad6d49acd44b0eb6efe7b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2931340613198084100, guid: 36d6ae8185cad6d49acd44b0eb6efe7b,
         type: 3}

@@ -70,13 +70,13 @@ MonoBehaviour:
     falling edge) c\u1EE7a t\xEDn hi\u1EC7u \u0111\u1EA7u ra. \u0110i\u1EC1u n\xE0y
     \u0111\u01B0\u1EE3c th\u1EF1c hi\u1EC7n b\u1EB1ng c\xE1ch \u0111i\u1EC1u ch\u1EC9nh
     k\xEDch th\u01B0\u1EDBc transistor sao cho gi\u1EA3m th\u1EDDi gian tr\u1EC5
-    cho c\u1EA1nh \u0111\u01B0\u1EE3c \u01B0u ti\xEAn.\r\n\n- Rising output critical:
+    cho c\u1EA1nh \u0111\u01B0\u1EE3c \u01B0u ti\xEAn.\r\n\n- <b>Rising output critical</b>:
     N\u1EBFu c\u1EA1nh t\u0103ng c\u1EE7a \u0111\u1EA7u ra l\xE0 quan tr\u1ECDng
-    nh\u1EA5t, c\xE1c transistor pMOS \u0111\u01B0\u1EE3c t\u1ED1i \u01B0u h\xF3a.\r\nFalling
-    output critical: N\u1EBFu c\u1EA1nh gi\u1EA3m c\u1EE7a \u0111\u1EA7u ra l\xE0
-    quan tr\u1ECDng nh\u1EA5t, c\xE1c transistor nMOS \u0111\u01B0\u1EE3c t\u1ED1i
-    \u01B0u h\xF3a.\r\n\r\nM\u1EE5c ti\xEAu:\r\n- Gi\u1EA3m thi\u1EC3u tr\u1EC5 cho
-    c\u1EA1nh t\xEDn hi\u1EC7u quan tr\u1ECDng.\r\n- Th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+    nh\u1EA5t, c\xE1c transistor pMOS \u0111\u01B0\u1EE3c t\u1ED1i \u01B0u h\xF3a.\r\n-<b>
+    Falling output critical</b>: N\u1EBFu c\u1EA1nh gi\u1EA3m c\u1EE7a \u0111\u1EA7u
+    ra l\xE0 quan tr\u1ECDng nh\u1EA5t, c\xE1c transistor nMOS \u0111\u01B0\u1EE3c
+    t\u1ED1i \u01B0u h\xF3a.\r\n\r\nM\u1EE5c ti\xEAu:\r\n- Gi\u1EA3m thi\u1EC3u tr\u1EC5
+    cho c\u1EA1nh t\xEDn hi\u1EC7u quan tr\u1ECDng.\r\n- Th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
     s\u1EED d\u1EE5ng khi c\xE1c \u0111\u1EA7u v\xE0o c\xF3 th\u1EDDi gian kh\xE1c
     nhau ho\u1EB7c khi c\u1EA7n t\u1ED1i \u01B0u h\xF3a \u0111\u1ED3ng b\u1ED9 t\xEDn
     hi\u1EC7u.\r\n"
