@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: 'Tristate Buffer '
+  LessonTitle: "Tristate \u0111\u1EA3o"
   contentType: 0
   TextInfo: {fileID: 6491805034061868788, guid: feffa2ba4f90ce54fb0f8205f1a5484f,
     type: 3}

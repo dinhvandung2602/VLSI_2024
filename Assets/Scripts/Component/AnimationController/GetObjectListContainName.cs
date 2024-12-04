@@ -32,19 +32,19 @@ public class GetObjectListContainName : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("a"))
-        {
-            m_script = GetComponent<ModelPrefabRef>();
+        //if (Input.GetKeyDown("a"))
+        //{
+        //    m_script = GetComponent<ModelPrefabRef>();
 
-            foreach (Transform child in transform)
-            {
-                if (child.name.Contains("trans"))
-                {
-                    matchingChild.Add(child.gameObject);
-                }
-            }
+        //    foreach (Transform child in transform)
+        //    {
+        //        if (child.name.Contains("trans"))
+        //        {
+        //            matchingChild.Add(child.gameObject);
+        //        }
+        //    }
 
-            m_script.objLists = matchingChild.ToArray();
-        }
+        //    m_script.objLists = matchingChild.ToArray();
+        //}
     }
 }
