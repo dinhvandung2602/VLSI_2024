@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "Thi\u1EBFt k\u1EBF c\u1ED5ng CMOS"
+  BriefVoiceT2: {fileID: 8300000, guid: 614c38229128f5344ac2aec565de338d, type: 3}
 --- !u!1 &6641635972629970452
 GameObject:
   m_ObjectHideFlags: 0

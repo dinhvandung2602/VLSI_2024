@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "C\u1ED5ng xi\xEAn (Skewed Gates)"
+  BriefVoiceT2: {fileID: 8300000, guid: 4914e4ecf144fe94a981ccbc88deb2a3, type: 3}
 --- !u!1 &8604333474828961599
 GameObject:
   m_ObjectHideFlags: 0

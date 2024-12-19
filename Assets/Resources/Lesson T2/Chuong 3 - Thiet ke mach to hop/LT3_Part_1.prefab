@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "\u0110\u1EA9y b\u1ECDt (Bubble Pushing)"
+  BriefVoiceT2: {fileID: 8300000, guid: 917024acf0083584a912d02582f81ccc, type: 3}
 --- !u!1 &8412839556769567954
 GameObject:
   m_ObjectHideFlags: 0

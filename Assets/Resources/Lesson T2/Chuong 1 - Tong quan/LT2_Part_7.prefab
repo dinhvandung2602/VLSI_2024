@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "C\xE1c Flip-flop"
+  BriefVoiceT2: {fileID: 8300000, guid: bb9ee34b5e9c8424d891804333ec00cc, type: 3}
 --- !u!1 &7652318794488333465
 GameObject:
   m_ObjectHideFlags: 0

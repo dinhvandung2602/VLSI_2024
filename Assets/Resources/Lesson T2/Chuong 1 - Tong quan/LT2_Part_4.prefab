@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "Tristate (C\u1ED5ng 3 tr\u1EA1ng th\xE1i)"
+  BriefVoiceT2: {fileID: 8300000, guid: 06f0e3dac37b9794a9fbf0d6d175c0ba, type: 3}
 --- !u!1 &6897260721191824856
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class LessonT2 : MonoBehaviour
 {
     public string LessonTitle;
-
+    public AudioClip BriefVoiceT2;
 
     // Start is called before the first frame update
     void Start()

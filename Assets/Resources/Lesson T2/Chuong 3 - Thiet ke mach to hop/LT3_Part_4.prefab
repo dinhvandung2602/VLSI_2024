@@ -151,3 +151,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LessonTitle: "C\u1ED5ng kh\xF4ng \u0111\u1ED1i x\u1EE9ng v\xE0 C\u1ED5ng \u0111\u1ED1i
     x\u1EE9ng"
+  BriefVoiceT2: {fileID: 8300000, guid: 55ab1bd3f6c1afb4991fd437282388cb, type: 3}

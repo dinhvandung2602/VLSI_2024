@@ -6214,6 +6214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "Quy tr\xECnh CMOS Fabrication"
+  BriefVoiceT2: {fileID: 8300000, guid: d3c50a05dd03e74459b5aec3aefe73a4, type: 3}
 --- !u!1 &5186628776687304468
 GameObject:
   m_ObjectHideFlags: 0
@@ -10457,7 +10458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26ea3687c99af845b653c153a3b5eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LessonTitle: "4 - Kh\u1EAFc (Etching) "
+  LessonTitle: "4 - \u0102n m\xF2n (Etching) "
   contentType: 0
   TextInfo: {fileID: 6491805034061868788, guid: 088031d0fedc1ee42b3f596883d7a814,
     type: 3}

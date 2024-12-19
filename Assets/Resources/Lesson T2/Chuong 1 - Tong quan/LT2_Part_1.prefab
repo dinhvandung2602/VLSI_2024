@@ -4947,6 +4947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "C\xE1c lo\u1EA1i Transitor"
+  BriefVoiceT2: {fileID: 8300000, guid: ae4bd633dd177e048a90df9d9b699887, type: 3}
 --- !u!1 &5178967296672384393
 GameObject:
   m_ObjectHideFlags: 0

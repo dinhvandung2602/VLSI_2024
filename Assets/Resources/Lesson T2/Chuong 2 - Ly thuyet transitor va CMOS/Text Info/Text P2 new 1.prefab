@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6491805034061868788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3003277915601320635}
+  - component: {fileID: 5724880050707232007}
+  - component: {fileID: 5422064327995364857}
+  m_Layer: 5
+  m_Name: Text P2 new 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3003277915601320635
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 516.38, y: 1486.4575}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &5724880050707232007
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_CullTransparentMesh: 1
+--- !u!114 &5422064327995364857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491805034061868788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\tM\xF4 h\xECnh gi\u1EA3 \u0111\u1ECBnh r\u1EB1ng chi\u1EC1u d\xE0i k\xEAnh
+    \u0111\u1EE7 d\xE0i \u0111\u1EC3 \u0111i\u1EC7n tr\u01B0\u1EDDng b\xEAn (tr\u01B0\u1EDDng
+    gi\u1EEFa ngu\u1ED3n v\xE0 m\xE1ng) t\u01B0\u01A1ng \u0111\u1ED1i th\u1EA5p.
+    M\xF4 h\xECnh k\xEAnh d\xE0i gi\u1EA3 \u0111\u1ECBnh r\u1EB1ng d\xF2ng \u0111i\u1EC7n
+    qua transistor khi OFF l\xE0 0. Khi transistor ON (Vgs > Vt), c\u1ED5ng h\xFAt
+    c\xE1c h\u1EA1t t\u1EA3i \u0111i\u1EC7n (\u0111i\u1EC7n t\u1EED) \u0111\u1EC3
+    t\u1EA1o th\xE0nh m\u1ED9t k\xEAnh. C\xE1c \u0111i\u1EC7n t\u1EED di chuy\u1EC3n
+    t\u1EEB c\u1EF1c ngu\u1ED3n \u0111\u1EC3 tho\xE1t ra v\u1EDBi t\u1ED1c \u0111\u1ED9
+    t\u1EF7 l\u1EC7 v\u1EDBi \u0111i\u1EC7n tr\u01B0\u1EDDng gi\u1EEFa c\xE1c v\xF9ng
+    n\xE0y. \r\n\n\tC\xF3 th\u1EC3 coi c\u1ED5ng nh\u01B0 m\u1ED9t t\u1EE5 \u0111i\u1EC7n
+    b\u1EA3n song song v\u1EDBi \u0111i\u1EC7n dung t\u1EF7 l\u1EC7 v\u1EDBi di\u1EC7n
+    t\xEDch tr\xEAn \u0111\u1ED9 d\xE0y. N\u1EBFu c\u1ED5ng c\xF3 chi\u1EC1u d\xE0i
+    L v\xE0 chi\u1EC1u r\u1ED9ng W v\xE0 \u0111\u1ED9 d\xE0y oxit l\xE0 t<size=70%>ox</size>
+    th\xEC \u0111i\u1EC7n dung l\xE0:\r\n<align=center><size=400%><sprite name=\"IV_1\"></size></align>\n\tTrong
+    \u0111\xF3 \u03B5<size=70%>0</size> l\xE0 h\u1EB1ng s\u1ED1 \u0111i\u1EC7n m\xF4i
+    ch\xE2n kh\xF4ng 8,85 \xD7 10<sup>\u201314</sup> F/cm v\xE0 h\u1EB1ng s\u1ED1
+    \u0111i\u1EC7n m\xF4i c\u1EE7a SiO<size=70%>2</size> l\u1EDBn g\u1EA5p k<size=70%>ox</size>
+    = 3,9 l\u1EA7n \u0111i\u1EC7n m\xF4i ch\xE2n kh\xF4ng. Th\xF4ng th\u01B0\u1EDDng,
+    thu\u1EADt ng\u1EEF \u03B5<size=70%>ox</size>/t<size=70%>ox</size> \u0111\u01B0\u1EE3c
+    g\u1ECDi l\xE0 C<size=70%>ox</size>, \u0111i\u1EC7n dung tr\xEAn m\u1ED9t \u0111\u01A1n
+    v\u1ECB di\u1EC7n t\xEDch c\u1EE7a c\u1ED5ng oxit.\r\n\n\tTh\u1EDDi gian c\u1EA7n
+    thi\u1EBFt \u0111\u1EC3 c\xE1c h\u1EA1t mang \u0111i\u1EC7n \u0111i qua k\xEAnh
+    l\xE0 chi\u1EC1u d\xE0i k\xEAnh chia cho v\u1EADn t\u1ED1c h\u1EA1t mang \u0111i\u1EC7n:
+    L/v. Do \u0111\xF3, d\xF2ng \u0111i\u1EC7n gi\u1EEFa c\u1EF1c ngu\u1ED3n v\xE0
+    c\u1EF1c m\xE1ng l\xE0 t\u1ED5ng l\u01B0\u1EE3ng \u0111i\u1EC7n t\xEDch trong
+    k\xEAnh chia cho th\u1EDDi gian c\u1EA7n thi\u1EBFt \u0111\u1EC3 v\u01B0\u1EE3t
+    qua:\r\n<align=center><size=900%><sprite name=\"IV_2\"></size></align>\n\tT\u1EA1i
+    \u0111\xF3\r:\n<align=center><size=350%><sprite name=\"IV_3\"></size></align>\n
+    <align=center><size=200%><sprite name=\"IV_4\"></size></align>\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}
+  m_sharedMaterial: {fileID: -161682181009133515, guid: 06e62cb86883c5d4c902093bb8efb9a7,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4282006074
+  m_fontColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: 81cd684ff4cc54749babc544dfa5e4c8, type: 2}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 8
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}

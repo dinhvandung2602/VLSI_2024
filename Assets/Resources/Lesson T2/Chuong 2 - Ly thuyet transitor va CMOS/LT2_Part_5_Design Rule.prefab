@@ -2667,6 +2667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "Quy t\u1EAFc thi\u1EBFt k\u1EBF"
+  BriefVoiceT2: {fileID: 8300000, guid: fcd4f9ba0f182974dbd337abc47b6a8b, type: 3}
 --- !u!1 &5225377848074069184
 GameObject:
   m_ObjectHideFlags: 0

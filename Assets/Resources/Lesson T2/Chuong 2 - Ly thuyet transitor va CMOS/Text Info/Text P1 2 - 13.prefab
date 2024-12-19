@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "K\u1EBFt n\u1ED1i c\xE1c thi\u1EBFt b\u1ECB l\u1EA1i v\u1EDBi nhau:\r\n-
     Che ph\u1EE7 chip b\u1EB1ng l\u1EDBp oxit tr\u01B0\u1EDDng (field oxide) d\xE0y.\r\n-
-    Kh\u1EAFc b\u1ECF l\u1EDBp oxit t\u1EA1i c\xE1c v\u1ECB tr\xED c\u1EA7n t\u1EA1o
+    \u0102n m\xF2n l\u1EDBp oxit t\u1EA1i c\xE1c v\u1ECB tr\xED c\u1EA7n t\u1EA1o
     l\u1ED7 ti\u1EBFp x\xFAc (contact cuts).\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 06e62cb86883c5d4c902093bb8efb9a7, type: 2}

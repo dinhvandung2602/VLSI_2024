@@ -53,6 +53,7 @@ public class ManagerLessonT3 : MonoBehaviour
         myLessonT2 = GetComponentInChildren<LessonT2>();
 
         Text_MainTitle.text = LessonData.instance.T2_Index.ToString() + " - " + myLessonT2.LessonTitle;
+        GetComponent<AudioSource>().clip = myLessonT2.BriefVoiceT2;
 
         ButtonNext.onClick.AddListener(ChooseNext);
         ButtonPrev.onClick.AddListener(ChoosePrev);
@@ -68,6 +69,23 @@ public class ManagerLessonT3 : MonoBehaviour
 
         StartCoroutine(delaySelectFirstButton());
         ButtonT3Group.GetComponentInParent<ScrollRect>().horizontalNormalizedPosition = 0;
+
+        if (SoundManager.SoundIsOn)
+        {
+            PLayVoiceBriefT2();
+        }
+    }
+
+    void OnEnable()
+    {
+        SoundManager.OnSoundOn += PLayVoiceBriefT2;
+        SoundManager.OnSoundOff += StopVoiceBriefT2;
+    }
+
+    void OnDisable()
+    {
+        SoundManager.OnSoundOn -= PLayVoiceBriefT2;
+        SoundManager.OnSoundOff -= StopVoiceBriefT2;
     }
 
     IEnumerator delaySelectFirstButton()
@@ -93,6 +111,16 @@ public class ManagerLessonT3 : MonoBehaviour
         {
             BackToT2();
         }
+    }
+
+    public void PLayVoiceBriefT2()
+    {
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void StopVoiceBriefT2()
+    {
+        GetComponent<AudioSource>().Stop();
     }
 
     public void SelectLessonT3(int index)

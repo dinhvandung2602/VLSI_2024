@@ -204,6 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: "N\u1ED7 l\u1EF1c logic (Logical Effort)"
+  BriefVoiceT2: {fileID: 8300000, guid: 92a6db852993975408451a503f0ad02e, type: 3}
 --- !u!1 &8412839556769567954
 GameObject:
   m_ObjectHideFlags: 0

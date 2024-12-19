@@ -379,6 +379,216 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1394
+        width: 444
+        height: 102
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c7fb87d18b2941ac9f28dcdffb3c9
+      internalID: 2139063960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1124
+        width: 451
+        height: 243
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ff324a7ce24554b84c5458ff9db045
+      internalID: 1540668444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_13
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1001
+        width: 184
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b812785ea6e7445a8e6419636214ce
+      internalID: 759642802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_14
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 926
+        width: 183
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2dda2e2eea3a046a125ad76ea1deac
+      internalID: 1458686894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 816
+        width: 178
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185f408e0f014e347ae12240bd7debfd
+      internalID: -585144515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_16
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 710
+        width: 235
+        height: 89
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e63529967376445ad718bfa0e5502a
+      internalID: 139971420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 438
+        height: 553
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b716ccdfd89b4d40a0fa0c6d9b6b869
+      internalID: -1764245169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 11
+        width: 400
+        height: 552
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307ddad4edde9f4c9c81ac7951eb70d
+      internalID: -1098968956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_20
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 8
+        width: 407
+        height: 555
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a1829ed6d64f45b888ceaf1a8eccf
+      internalID: 1693609635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI Assets_spriteAtlas_2_21
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 907
+        width: 660
+        height: 189
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d25a6da9209a34ca5a1125f63d786b
+      internalID: -367125086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -393,7 +603,18 @@ TextureImporter:
       GUI Assets_spriteAtlas_2_0: -1856482808
       GUI Assets_spriteAtlas_2_1: -1668327725
       GUI Assets_spriteAtlas_2_10: -529046139
+      GUI Assets_spriteAtlas_2_11: 2139063960
+      GUI Assets_spriteAtlas_2_12: 1540668444
+      GUI Assets_spriteAtlas_2_13: 759642802
+      GUI Assets_spriteAtlas_2_14: 1458686894
+      GUI Assets_spriteAtlas_2_15: -585144515
+      GUI Assets_spriteAtlas_2_16: 139971420
+      GUI Assets_spriteAtlas_2_17: 1884591990
+      GUI Assets_spriteAtlas_2_18: -1764245169
+      GUI Assets_spriteAtlas_2_19: -1098968956
       GUI Assets_spriteAtlas_2_2: 2134332168
+      GUI Assets_spriteAtlas_2_20: 1693609635
+      GUI Assets_spriteAtlas_2_21: -367125086
       GUI Assets_spriteAtlas_2_3: 1208863466
       GUI Assets_spriteAtlas_2_4: 739647128
       GUI Assets_spriteAtlas_2_5: 409529153

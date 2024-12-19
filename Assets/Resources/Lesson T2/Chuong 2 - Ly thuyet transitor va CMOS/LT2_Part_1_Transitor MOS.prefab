@@ -68,7 +68,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &47979908464393444
 Transform:
   m_ObjectHideFlags: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LessonTitle: Transitor MOS
+  BriefVoiceT2: {fileID: 8300000, guid: caa39352e82f74a4683d2ca55dfe1557, type: 3}
 --- !u!1 &5413349820960388174
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &507927883102196854
 Transform:
   m_ObjectHideFlags: 0
@@ -765,6 +766,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512714659246783275, guid: 7249623c4cf2c8a4fbd59f9a24046f3a,
+        type: 3}
+      propertyPath: m_text
+      value: cation
       objectReference: {fileID: 0}
     - target: {fileID: 6512714659246783275, guid: 7249623c4cf2c8a4fbd59f9a24046f3a,
         type: 3}
